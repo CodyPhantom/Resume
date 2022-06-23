@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- head section-->
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/473865f5c9.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+
+    <link rel = "stylesheet" href="style.css" />
+</head>
+
+<body>
+<!-- this > the header section that includes the picture-->
+
+    
+    <header> 
+
+        <img class="img1" src="pose2.jpg" alt="this is a picture of brandon" />
+        <h1 class="bling"> Brandon Steven Vega </h1>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+            <a href=""><i class="fa-brands fa-github-square"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </header>
+
+   
+
+<!-- this is the main section where most of the content is stored -->
+    
+    <main>
+        <!-- Hook and summary -->
+        
+        <section class="intro">
+            <h2>Empowered caffinated hustler</h2>
+        <p>Knowledge will be my blade that's why i will eager to seek Knowledge everyday, my journey began in Denmark </p>
+            <p>
+                While also being a student, I work as an information technology apprentice helping others with related IT issues in the workplace
+            </p>
+        </section>
+        <hr>
+        <div class="section-container">
+            <!-- Work experience -->
+            <section>
+                <div class = "squares">
+                  
+                    <h2>Work Experience</h2>  
+                </div>
+
+                <article>
+                    <h3 >Blagkompagniet </h3>
+                    <p>2021-2022</p>
+                    <p>Navigation,Organisation,Levering</p>
+                </article>  
+                
+                <article>
+                    <h3 >It-Supporter Tunekursuscenter</h3>
+                    <p>2021-2022</p>
+                    <p>Tekniske Opgaver,Kundeservice</p>
+                </article>  
+
+            </section>
+           
+            <section>
+                <div class="squares">
+                    <h2>Education</h2>
+                </div>
+                
+                
+                <article>
+                    <h3 >Fra Sprogskolen til Folkeskolen</h3>
+                    <p>2010-2018</p>
+                    <p> Det var her hvor det hele startede, her lærte jeg både at tale dansk & engelsk og fik min afgangseksame</p>
+                    <h3 >GF1 EUX, Frederiksberg TEC</h3>
+                    <p>2018-2018</p>
+                    <p> en periode hvor man snussede rundt til de forskellige uddanelser, jeg besluttede mig derfor at gå all in i IT </p>
+
+                    <h3 >GF2 EUD, Ringsted ZBC</h3>
+                    <p>2021-2022</p>
+                    <p> Her bestod jeg alle de gymnasielle fag på et D niveau og fik en Cisco Introdoction to networks 
+                        certifikat</p>
+
+                    <h3 >H1 EUD, Ringsted ZBC</h3>
+                    <p>2022-2023</p>
+                    <p>Nu</p>
+
+                
+                    
+                </article>  
+                
+               
+            </section>
+        </div>
+
+        <aside>
+            <article>
+                <!--COURSES-->
+                <h2>Courses</h2>
+                <ul>
+                    <h3>Førstehjælpkursus & Brandbekæmpelse </h3>
+                    <p>Taget i Ringsted ZBC 2022</p>
+                    <h3>Codecamp, Legacy Responsive Web Design</h3>
+                    <p>Software & Hardware viden og er fremragende problemløser i dette felt</p>
+                    <h3>Cybersecurity</h3>
+                    <p>Have tried different courses for fun, these explain explotation,Cyber Defense, RCE and privilege escalation</p>
+                    
+
+                </ul>
+
+
+
+
+
+
+
+
+                <!--skills-->
+                <h2>Skills</h2>
+                <ul>
+                    <h3>Web Udvikling</h3>
+                    <p>HTML,CSS,Javascript</p>
+                    <h3>It-Supporter evner</h3>
+                    <p>Software & Hardware viden og er fremragende problemløser i dette felt</p>
+                    <h3>Bløde Skills</h3>
+                    <p>Mødestabil,ansvarbevidst, Holdspiller, Kundeminded </p>
+                    <h3>Moderate Netværk Skills</h3>
+                    <p>Har haft undervisning under licens af Cisco og taget flere cybersecurity kurser på nettet
+                    </p>
+
+                </ul>
+            </article>
+
+        </aside>
+
+
+    </main>
+    <!-- this is the footer section where additional information is stored-->
+    <footer>
+        
+        <p>"I like villains because there’s something so attractive about a committed person 
+        </p>
+        <p> they have a plan, an ideology, no matter how twisted.” They’re motivated.</p>
+       
+
+    </footer> 
+
+</body>
+    
+</html>
