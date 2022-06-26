@@ -1,0 +1,239 @@
+
+:root {
+    --main-color:rgba(186,61,40,1);
+    --accent-color: red;
+    --dark-color: #191716;
+    --light-color: #f9f8f8;
+
+    --title-font:Arial, Helvetica, sans-serif;
+    --default-font:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  background-color: var(--dark-color);
+    color: var(--light-color);
+    font-family: var(--default-font);
+  
+}
+
+/********************************************************************/
+/*                      HEADER                                      */
+/*********************************************************************/
+header{
+    display: flex;
+   width: 100%;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(186,61,40,1) 35%);
+    color: white;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    align-items: center;
+    flex-direction:column;
+}
+
+header img{
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 100%;
+}
+
+/********************************************************************/
+/*                      SECTIONS                                     */
+/*********************************************************************/
+main{
+    display: flex;
+
+    width: 70%;
+    margin: 0 auto;
+
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .squares{
+    width: 100%;
+    height: auto;
+    background: rgba(186,61,40,1);
+    border-radius: 2px;
+    font-size:1.3em;
+    text-align: center;
+    color:var(--light-color);
+   
+    
+    column-gap: 1em;
+
+    
+
+    
+    
+ }
+
+.intro {
+    
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  font-size: 1.5em;
+
+  align-items:center;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+}
+.section-container p{
+font-family: var(--default-font);
+font-size: 1.1em;
+}
+.section-container h3 {
+    font-family: var(--main-color);
+    font-size: 1.3em;
+}
+
+
+.social{
+    display:flex;
+
+    width: 50%;
+
+    flex-direction: row;
+    justify-content: center;
+    
+
+    gap: 1em;
+}
+
+section{
+    width: 100%;
+}
+
+
+
+aside{
+  
+  width:30%;
+  display: flex;
+ 
+  flex-direction: column;
+  flex: initial;
+  
+    
+    
+    
+}
+aside p{
+font-family: var(--default-font);
+
+
+}
+aside li{
+  list-style: none;
+  text-align: center;
+}
+
+aside h3 {
+text-align:center;
+font-family: var(--title-font);
+color: aqua;
+font-size: 1.2em;
+
+
+}
+/********************************************************************/
+/*                      FOOTER                                      */
+/*********************************************************************/
+
+
+#whoami {
+    
+    font-size: 80px;
+    font-family: Lovelo Font;
+    color: white;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 4s linear infinite;
+  }
+
+
+.aboutmetext {
+    color: white;
+    font-family: Quicksand;
+    font-size: 30px;
+  }
+
+
+
+  footer {
+    
+    
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+    background-color: var(--main-color);
+    font-family:Proxima Nova;
+    font-size: 1.8em;
+    line-height: 0px;
+    color: var(--light-color);
+    flex-wrap:wrap;
+  
+  }
+
+ 
+
+
+/********************************************************************/
+/*                      ANIMATIONS                                    */
+/*********************************************************************/
+.bling {
+    color: #fff;
+    font-size:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s linear infinite;
+    flex-wrap: wrap;
+  }
+  @keyframes shine {
+    from { -webkit-mask-position: 150%; }
+    to { -webkit-mask-position: -50%; }
+  }
+
+  .cursor {
+    
+    background: lime;
+   
+    -webkit-animation: blink 0.8s infinite;
+    width: 2px;
+    height: 30px;
+  }
+  @-webkit-keyframes blink {
+    0% {background: #222}
+    50% {background: lime}
+    100% {background: #222}
+  }
+  /********************************************************************/
+/*                          ICONS                                     */
+/*********************************************************************/
+.social a{
+    font-size: 4em;
+    color: aquamarine;
+   
+   
+}
+
+.social a:hover{
+    color: azure;
+    transition: all 0.6s ease-out ;
+   
+
+}
